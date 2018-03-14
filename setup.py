@@ -86,5 +86,6 @@ setup(name=NAME,
     license = "MIT",
     url = HOMEPAGE,
     download_url = "http://bitbucket.org/sumerc/yappi/downloads/%s-%s.tar.gz" % (NAME, VERSION),
-    test_suite = 'nose.collector'
+    test_suite = 'nose.collector',
+    zip_safe = False,
 )
